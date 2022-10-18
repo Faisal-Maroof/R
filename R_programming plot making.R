@@ -1,0 +1,8 @@
+library(datasets)
+data(cars)
+print(head(cars,n=5))
+print(tail(cars,n=5))
+print(summary(cars))
+print(table(is.na(cars)))
+plot(cars,col='blue',pch=20,cex=2,main="Relationship Between Speed and Stopping",xlab="Speed in mph", ylab="Stopping distance in ft")
+cor(cars$speed,cars$dist)

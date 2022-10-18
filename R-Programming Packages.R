@@ -1,0 +1,7 @@
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("broom")
+install.packages("ggpubr")
+install.packages("randomForest")
+install.packages("party")
+install.packages("mlbench")
